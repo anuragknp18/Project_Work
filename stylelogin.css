@@ -1,0 +1,55 @@
+div {
+    padding: 3px;
+    margin-top: 1px;
+    background-color: ;
+}
+
+.container
+{
+    text-align: center;
+}
+
+.form-container {
+    background-color: rgb(209, 219, 216);
+    width:500px;
+    height:500px;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 10PX;
+}
+
+.form {
+    align-content: center;
+    font-size:24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:1.5rem;
+    border-radius: 8px;
+}
+
+input
+{
+    padding:0.25rem;
+}
+
+.btn
+{
+    /*padding:1.2rem;*/
+    width:25%;
+    border-radius: 6px;
+    background-color: lightblue;
+}
+
+.heading
+{
+    font-size:1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    text-decoration: underline double;
+}
+
+.social i
+{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 60%;
+}

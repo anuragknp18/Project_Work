@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books-Spot</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+
+        }
+
+        .image {
+            margin-left: 28%;
+            margin-right: 28%;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .sometext {
+            padding: 20px;
+            margin-left: 530px;
+            margin-right: 500px;
+            text-align: left;
+            font-family: iceland, serif;
+            font-size: 25px;
+        }
+
+        .sometext2 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        #div1 {
+            padding: 20px;
+            margin-left: 500px;
+        }
+        #div2 {
+            padding: 20px;
+        }
+        #div3 {
+            padding: 20px;
+            margin-left: 500px;
+        }
+        #div4 {
+            padding: 20px;
+        }
+    
+
+        @import url('https://fonts.googleapis.com/css2?family=Mogra&family=Orbitron:wght@400..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Mogra&family=Orbitron:wght@400..900&family=PT+Serif+Caption:ital@0;1&display=swap');
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Iceland&family=Mogra&family=Orbitron:wght@400..900&family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-top">
+            <img src="Books-spot2.jpg" length="70px" width="70px" alt="Book-Spot Logo" class="logo">
+            <div class="site-name">Books-Spot</div>
+            <div class="auth-buttons">
+                <button><a href="signup.html" style="text-decoration: none; color:#333">Sign-Up</a></button>
+                <button><a href="login.html" style="text-decoration: none; color: #333;">Login</a></button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <span style="gap:5px;">
+                <li><br><br><a href="#books-categories"><label for="category">Books-Categories</label></a></li>
+                <br><select id="category" name="category">
+                    <option>Fiction</option>
+                    <option>Non-Fiction</option>
+                    <option>Drama</option>
+                    <option>Poetry</option>
+                    <option>Comics/Graphics-Novels</option>
+                    <option>Historical Romance</option>
+                    <option>Science and Tech</option>
+                    <option>Academics and Educational</option>
+                    <option>True crime</option>
+                    <option>Kids</option>
+                    <option>Science-Fiction-Fantacy</option>
+                    <option>Pyschological-Thiller</option>
+                    <option>Special Interest</option>
+                    <option>Religion and Spirituality</option>
+                    <option>Business and Economics</option>
+                    <option>Miscellanious/Others</option>
+                </select>
+            </span>
+            <li><a href="#genres">Genres</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact-Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Search for books, authors, or genres...">
+        <button>Search</button>
+    </div>
+
+    <!--Main Content Section-->
+    <div class="about-container">
+        <h1 style="font-family: Orbitron , serif; text-align: center;">Learn More About Us.</h1>
+    </div>
+    <div class="image">
+        <img style="border-radius: 5px;" src="book.jpg" height="400px" width="800px">
+    </div>
+    <div class="sometext">
+        <p>Welcome to BookSpot, your ultimate destination for all things books! Whether you're a passionate reader, a
+            curious learner, or someone looking for their next literary adventure, we’re here to guide you.
+
+            At BookSpot, we believe that every book tells a story beyond its pages. Our mission is to connect readers
+            with stories that inspire, educate, and entertain. From timeless classics to the latest bestsellers, we
+            curate a wide range of books to suit every taste and interest.
+
+            Why Choose BookSpot?
+
+            Diverse Selection: Discover books across genres, including fiction, non-fiction, self-help, and more.
+            Community of Readers: Join a thriving community where book lovers share reviews, recommendations, and
+            insights.
+            Convenience: Explore, shop, and discover your next favorite read—all from the comfort of your own home.
+            We’re more than just a bookstore; we’re a hub for book enthusiasts. At BookSpot, we celebrate the power of
+            words and the joy of reading.
+
+            Thank you for choosing us to be a part of your reading journey. Happy reading!
+
+        </p>
+    </div>
+    <div class="sometext2">
+        <div id="div1" style="max-width: 400px;">
+            <p style="text-align: left; font-family: Andika;">
+            <h1 style=" font-family: PT Serif Caption" , serif;">Who We Are?</h1><hr>
+            At BookSpot, we are passionate about connecting people with the joy of reading.
+            As a one-stop destination for book enthusiasts, we strive to make the world of books accessible to everyone,
+            no matter their preferences or reading level. Whether you're a casual reader or a dedicated bibliophile,
+            we offer a curated collection of titles spanning diverse genres and interests.
+            </p>
+        </div>
+
+
+
+        <div id="div2" style="max-width: 400px;">
+            <p style="text-align: left; font-family: Andika;">
+            <h1 style=" font-family: PT Serif Caption" , serif;">Our Mission!</h1><hr>
+            Our mission is to empower readers by fostering a deep love for books and storytelling.
+            We aim to provide a seamless and enriching experience that brings the magic of books
+            closer to every individual, creating a community bound by the shared love of reading.
+            </p>
+        </div>
+
+            <div id="div3" style="max-width: 400px;">
+                <p style="text-align: left; font-family: Andika;">
+                <h1 style=" font-family: PT Serif Caption" , serif;">Our Vision</h1><hr>
+                We envision a world where books inspire, educate, and connect people.
+                At BookSpot, we aim to be the leading platform that nurtures lifelong 
+                learning, curiosity, and creativity, transforming lives one page at a time.
+                </p>
+            </div>
+
+                <div id="div4" style="max-width: 400px;">
+                    <p style="text-align: left; font-family: Andika;">
+                    <h1 style=" font-family: PT Serif Caption" , serif;">Our Values</h1><hr>
+                    <ul>
+                        <li><b>Passion for Books:</b> We celebrate the transformative power of books and stories.</li>
+                        <li><b>Inclusivity:</b> We believe in providing access to literature for everyone, regardless of background or interests.</li>
+                        <li><b>Community-Centered:</b> We build connections among readers, authors, and book enthusiasts.</li>
+                        <li><b>Innovation:</b> We embrace modern technology to create an exceptional and convenient reading experience.</li>
+                        <li><b>Sustainability:</b> We are committed to promoting environmentally responsible practices in the world of publishing and book retail.</li>
+                    </ul>
+                    
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+</body>
+<footer style="background-color: #333; color: white; padding: 20px;" class="foot">
+    <div class="inner-footer"
+        style="display: flex; gap:250px; align-items: flex-start; flex-wrap: wrap; padding:8px; position: relative;">
+        <!-- Quick Links Section -->
+        <div class="part1">
+            <h3 style="color: orange;">Quick Links</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="" style="color: white; text-decoration: none;">Books-Categories</a></li>
+                <li><a href="" style="color: white; text-decoration: none;">Services</a></li>
+                <li><a href="" style="color: white; text-decoration: none;">About</a></li>
+                <li><a href="" style="color: white; text-decoration: none;">Privacy Policy</a></li>
+                <li><a href="" style="color: white; text-decoration: none;">Contact-Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Archives Section -->
+        <div class="part2">
+            <h3 style="color: orange;">Archives</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li>December 2024</li>
+                <li>November 2024</li>
+                <li>October 2024</li>
+                <li>September 2024</li>
+                <li>August 2024</li>
+                <li>July 2024</li>
+                <li>June 2024</li>
+                <li>May 2024</li>
+                <li>April 2024</li>
+                <li>March 2024</li>
+                <li>Febuary 2024</li>
+                <li>January 2024</li>
+            </ul>
+        </div>
+        <!--Follow us Section-->
+        <div class="part3">
+            <h3 style="color: orange;">Follow Us</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li>Facebook</li>
+                <li>X handle</li>
+                <li>Github</li>
+                <li>Linkedin</li>
+                <li>Meta</li>
+            </ul>
+        </div>
+        <div class="part3">
+            <h2 style="color:rgb(214, 187, 30)">NewsLetter</h2><br>
+            <p style="color:aliceblue">Stay Connected with Our Newsletter!</p>
+            <p>Subscribe to our newsletter and never miss an update!</p>
+            <p>Get the latest news, exclusive offers, and insights delivered straight to your inbox.</p>
+            <h4>What you will get??</h4>
+            <ul>
+                <li>Updates: Stay informed about our latest products, services, or events.</li>
+                <li>Exclusive Offers: Be the first to know about special promotions and discounts.</li>
+                <li>Insights & Tips: Enjoy curated content, helpful tips, and expert advice tailored just for you.</li>
+                <li>Community News: Join a growing community and share in our journey.</li>
+                <li>Sign up today to stay connected and informed!</li>
+
+            </ul>
+            <p style="color:aquamarine">Simply enter your email address below and start enjoying all the benefits.</p>
+            <p style="color:aqua">We value your privacy and promise not to spam your inbox. You can unsubscribe anytime.
+            </p>
+        </div>
+    </div>
+
+    <div class="email">
+        <i class="fas fa-envelope"></i><input type="email" placeholder="Enter Your Email here...">
+        <input type="button" value="Submit">
+    </div>
+
+    <!-- Rights Section -->
+    <div style="text-align: center; margin-top: 20px;">
+        <h3>All rights Reserved 2024 &copy;</h3>
+    </div>
+</footer>
+
+</html>

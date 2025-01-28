@@ -1,0 +1,374 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  height:1vh;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #ddd;
+  padding-top: 35px;
+  background-color: #333;
+}
+
+header .site-name {
+  flex: 1;
+  text-align: center;
+  font-size: 32px;
+  color:aqua;
+  font-family: Delius;
+  box-shadow: 25px yellow;
+}
+
+header .auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-buttons button {
+  border-radius: 10px;
+  border: 2px solid orangered;
+  background: linear-gradient(45deg, rgb(216, 148, 22), rgb(214, 161, 91), rgb(214, 205, 179));
+  font-family: 'Iceland', sans-serif;
+  font-size: 20px; /* Adjusted font size */
+  padding: 8px 15px; /* Adjusted padding */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.auth-buttons button:hover {
+  color: orangered;
+  transform: translateY(-3px);
+  background: linear-gradient(45deg, rgb(223, 183, 110), rgb(214, 171, 91), rgb(214, 171, 50));
+  box-shadow: 0 0 10px rgb(228, 202, 156);
+}
+
+
+/* Navbar Section */
+.navbar {
+  background: linear-gradient(90deg, #333, #555);
+  padding: 0.8rem 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:80px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffad61;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.search-bar input {
+  width: 40%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 10px bold #000;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background:linear-gradient(45deg, rgb(146, 146, 214),rgb(87, 87, 206),rgb(63, 63, 202),rgb(15, 15, 221));
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left:1px;
+  font-family: 'Lucida Sans';
+  box-shadow: 0 0 10px rgb(121, 136, 168);
+}
+
+.search-bar button:hover {
+  background-color: #6750e6;
+}
+
+.text p
+{
+  font-family:'Iceland';
+  font-size:25px;
+  align-content: center;
+  margin-left: 3%;
+  margin-right:80%;
+  color:#c7c3e9;
+  background:linear-gradient(45deg, rgb(146, 146, 214),rgb(87, 87, 206),rgb(63, 63, 202),rgb(15, 15, 221));
+  border-radius: 8px;
+  padding:8px;
+}
+
+#category{
+  font-size: 18px;
+}
+
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.category-box {
+  flex: 1 1 calc(33.333% - 20px);
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #e0f7fa, #80deea);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.category-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(86, 192, 224);
+}
+
+.category-box h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #00796b;
+  margin-bottom: 10px;
+}
+
+.part1{
+  background-color: ;
+  padding:8px;
+  margin: 0;
+}
+
+ol{
+  background-color: #444;
+  padding:8px;
+  margin: 1rem;
+}
+ol li{
+  color:white;
+  margin: 1.5rem;
+}
+
+.foot{
+  position: relative;
+  top:80%;
+  bottom: 10px;
+}
+
+.inner-footer{
+  padding:8px;
+  background-color: #555;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.email i {
+  font-size: 24px; /* Adjust size as needed */
+}
+.email input[type="email"] {
+  padding: 2px;
+  font-size: 16px;
+  width:20%;
+}
+.email input[type="button"] {
+  padding: 3px 6px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: orange;
+  color:white;
+}
+.email input[type="button"]:hover{
+  background-color: orangered;
+}
+
+.content-container {
+  display: flex;
+  height:1600px;
+  width:1100px;
+  flex-wrap: wrap;
+  gap: 150px;
+  padding: 80px;
+  border-radius: 10px;
+  border-color: #444;
+  position: relative;
+  top:-800px;
+  left: 550px;
+  border-style:none;
+  box-shadow: 5px 5px 25px #333;
+}
+
+.content-container::before{
+  content: '';
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  background:url(6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 100%;
+  height:100%;
+  opacity:0.7;
+}
+
+.content{
+  height: 90px;
+  width: 200px;
+  background: url(book.jpg);
+  justify-content: center;
+  text-align: center;
+  padding-top:15px;
+  border-radius: 12px;
+  font-family: Iceland;
+  font-size:25px;;
+  color:orangered;
+  box-shadow: 0 0 10px rgb(221, 184, 119);
+}
+
+.content:hover{
+  transform: translate(0,-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(172, 135, 90);
+}
+
+
+
+/* Ensure the container for heading and genres is clearly defined */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between rows of genres */
+  margin-top: 20px; /* Space above the entire container */
+  padding: 50px; /* Space inside the container */
+}
+/* Styling for each genre box */
+.content-container .content {
+  flex: 1 1 calc(20% - 20px); /* Adjust size dynamically based on container size */
+  text-align: center;
+  padding: 10px;
+  background-color: #f5f5f5; /* Light gray for visual appeal */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin: 15px; /* Controls spacing around each box */
+  max-width: calc(20% - 20px); /* Prevents exceeding row width */
+}
+
+
+
+/* Ensure responsiveness for smaller screens */
+@media screen and (max-width: 768px) {
+  .content-container .content {
+      flex: 1 1 calc(45% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-container .content {
+      flex: 1 1 calc(100% - 20px);
+  }
+}
+
+/*contact us css*/
+
+.details{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-sub{
+  padding: 50px;;
+}
+
+.button {
+  border-radius: 10px;
+  border-color: 10px solid orangered;
+  background: linear-gradient(45deg,rgb(216, 148, 22),rgb(214, 161, 91),rgb(214, 205, 179));
+  font-family: Iceland ;
+  font-size:25px;
+  padding:8px;
+  margin:0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+  color:orangered;
+  transform: translateY(-6px);
+  box-shadow:0 4px 10px #333;
+  background: linear-gradient(45deg,rgb(223, 183, 110),rgb(214, 171, 91),rgb(214,171,50));
+  box-shadow: 0 0 10px rgb(228, 202, 156);
+}
+select{
+  font-family: Iceland;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.content-container button {
+  border-radius: 10px;
+  border-color: 10px solid orangered;
+  background: linear-gradient(45deg,rgb(216, 148, 22),rgb(214, 161, 91),rgb(214, 205, 179));
+  font-family: Iceland ;
+  font-size:25px;
+  padding:8px;
+  margin:0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content-container button:hover {
+  color:orangered;
+  transform: translateY(-6px);
+  box-shadow:0 4px 10px #333;
+  background: linear-gradient(45deg,rgb(223, 183, 110),rgb(214, 171, 91),rgb(214,171,50));
+  box-shadow: 0 0 10px rgb(228, 202, 156);
+}
+
+.content-container div{
+  height:200px;
+  width:200px;
+}
+
